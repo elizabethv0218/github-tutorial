@@ -89,10 +89,13 @@ Committing your files from the staging area to the (local) repository basically 
 
 ### Helpful Analogy
 _Imagine you are a photographer..._
+
 | |Working Directory|Staging Area|Repository|
 |-|-|-|-|
 |Analogy|You are hired as a family photographer only **once**|You are **adding** people into the photo to prepare them for the picture|You have now taken the **picture** of the family|
 |Coding|As the user, you initialize git in the working directory **once** at the **beginning**|You are **adding** edited or new files into the staging area to be prepared for committing|You have taken a **snapshot** of your files, now they are committed.|
+
+![Diagram of the Git Workflow](git-workflow.jpg)
 
 ### General Commands
 
@@ -119,7 +122,7 @@ _Imagine you are a photographer..._
 |19|`c9 filename`|Typing this command will open up the indicated file for you to edit, but you must be in its parent folder for this to work.|
 
 Please refer back to the sketch of a filesystem from the **Git vs. GitHub** section. If you use cloud 9 to create the filesystem using some of the commands from the table above, your code should result to this:  
-![Tree Structure and Code on Cloud 9](c9-tree-code)
+![Tree Structure and Code on Cloud 9](c9-tree-code.jpg)
 
 ### Git & GitHub Commands
 

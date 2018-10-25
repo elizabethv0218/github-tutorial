@@ -38,10 +38,10 @@ It's important to have a cloud 9 _and_ GitHub account in order to send your code
 6. Go to the top right corner to click on the gear icon (Account Settings).
 7. On the left, click "Connected Services".
 8. Click the green "Connect" button to connect your cloud9 account with your GitHub account. From now on, you can click on the Octocat icon whenever you sign into cloud 9 because it will log you into cloud 9 _and_ GitHub.
-9. Create a new workspace on cloud 9, name the workspace and give it a description.
+9. Create a new workspace on cloud 9, name the workspace, and give it a description.
 10. Set the team as "Don't set a team for this workspace".
 11. Choose the blank template and create the workspace.
-12. It is recommended you turn on auto-save, so click on "Cloud 9" in the top menu > Preferences > Experimental > Files > Auto-Save > have it **ON** > restart the workspace.
+12. It is recommended you turn on auto-save. To do this, simply click on "Cloud 9" in the top menu, followed by these new few options in this exact order... > Preferences > Experimental > Files > Auto-Save (have it **ON**) > restart the workspace.
 
 ### SSH Key
 Creating a **S**ecure **SH**ell (SSH) Key is helpful when you decide to upload your Git projects to GitHub. Your Git project requires the URL, or location of your desired remote repo on GitHub. The locations could be from HTTPS or SSH, however, SSH is recommended. This is because SSH is more efficient in that it will only require a one-time setup (hence, an SSH Key), whereas HTTPS requires your login info everytime you want to upload your work. To create an SSH Key follow the steps below:  
